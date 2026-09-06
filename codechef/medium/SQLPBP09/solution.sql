@@ -1,3 +1,2 @@
--- your code goes here
-SELECT department, COUNT(*) AS total_employees FROM Employees 
-GROUP BY department 
+--your code goes here
+SELECT employee_name, company, salary FROM Employees WHERE category = 'Full-Time' ORDER BY salary DESC
